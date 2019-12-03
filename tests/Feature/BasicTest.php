@@ -9,18 +9,18 @@ use Tests\TestCase;
 class BasicTest extends TestCase
 {
     public function testLoadHomePage(){
-        $this->get('/')->assertStatus(200)->assertSee('Pantalla principal');
+        $this->get('/')->assertStatus(302);
     }
     public function testLoadCatalogPage(){
-        $this->get('/catalog')->assertStatus(200)->assertSee('Catalogo');
+        $this->get('/catalog')->assertStatus(200)->assertSee('Catàleg');
     }
     public function testLoadCreatePage(){
-        $this->get('/catalog/create')->assertStatus(200)->assertSee('Crear pel.licula');
+        $this->get('/catalog/create')->assertStatus(200)->assertSee('Afegir pel.lícula');
     }
     public function testLoadEditPage(){
-        $this->get('/catalog/edit/2')->assertStatus(200)->assertSee('Editar pel.licula id 2');
+        $this->get('/catalog/edit/2')->assertStatus(200)->assertSee('Modificar pel.lícula');
     }
     public function testLoadShowPage(){
-        $this->get('/catalog/show/2')->assertStatus(200)->assertSee('Mostrar pel.licula id 2');
+        $this->get('/catalog/show/2')->assertStatus(200)->assertSee('Editar Pel.lícula');
     }
 }
