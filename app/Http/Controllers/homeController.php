@@ -2,12 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
-class HomeController extends Controller
+class homeController extends Controller
 {
+
     public function getHome()
     {
-        return redirect()->action('catalogController@getIndex');
+        if (Auth::user())
+            return redirect()->action('catalogController@getIndex');
+        else
+            return redirect('login');
     }
 }
