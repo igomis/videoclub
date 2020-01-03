@@ -8,13 +8,31 @@
             <h2>{{$pelicula->title}}</h2>
             <h4>{{$pelicula->year}}</h4>
             <h4>{{$pelicula->director}}</h4>
+            <p><strong>Genere:</strong>
+                @if ($pelicula->Genre)  {{ $pelicula->Genre->title}}
+                @else Desconocido
+                @endif
+            </p>
             <p><strong>Resumen: </strong>{{$pelicula->synopsis}}</p>
             <p><strong>Estado: </strong>Pel.lícula @if ($pelicula->rented)  Actualment llogada @else disponible @endif</p>
             <p>
                 @if ($pelicula->rented)
-                    <a href='' class="btn btn-info">Tornar Pel.lícula</a>
+                    <form action= {{action('catalogController@putReturn',$pelicula->id)}} method="POST" style="display:inline">
+                        {{ method_field('PUT') }}
+                        @csrf
+                        <button type="submit" class="btn btn-info" > Tornar Película</button>
+                    </form>
                 @else
-                    <a href='' class="btn btn-danger">Llogar Pel.lícula</a>
+                    <form action= {{action('catalogController@putRent',$pelicula->id)}} method="POST" style="display:inline">
+                        {{ method_field('PUT') }}
+                        @csrf
+                        <button type="submit" class="btn btn-secondary" > Llogar Película</button>
+                    </form>
+                    <form action= {{action('catalogController@deleteMovie',$pelicula->id)}} method="POST" style="display:inline">
+                        {{ method_field('DELETE') }}
+                        @csrf
+                        <button type="submit" class="btn btn-danger"  > Esborrar Película</button>
+                    </form>
                 @endif
                 <a href="\catalog\edit\{{$pelicula->id}}" class="btn btn-warning"><i class="fa fa-pencil"></i>Editar Pel.lícula</a>
                 <a href="\catalog" class="btn btn-default">Tornar catàleg</a>

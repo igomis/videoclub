@@ -12,4 +12,5 @@
          </div>
       @endforeach
    </div>
+   <div class="row">{{ $arrayPeliculas->render() }}</div>
 @stop
