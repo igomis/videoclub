@@ -17,11 +17,13 @@
             <p><strong>Estado: </strong>Pel.lícula @if ($pelicula->rented)  Actualment llogada @else disponible @endif</p>
             <p>
                 @if ($pelicula->rented)
-                    <form action= {{action('catalogController@putReturn',$pelicula->id)}} method="POST" style="display:inline">
-                        {{ method_field('PUT') }}
-                        @csrf
-                        <button type="submit" class="btn btn-info" > Tornar Película</button>
-                    </form>
+                    @if (Auth::user()->rent_movies->contains($pelicula))
+                        <form action= {{action('catalogController@putReturn',$pelicula->id)}} method="POST" style="display:inline">
+                            {{ method_field('PUT') }}
+                            @csrf
+                            <button type="submit" class="btn btn-info" > Tornar Película</button>
+                        </form>
+                    @endif
                 @else
                     <form action= {{action('catalogController@putRent',$pelicula->id)}} method="POST" style="display:inline">
                         {{ method_field('PUT') }}

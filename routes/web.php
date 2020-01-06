@@ -24,3 +24,6 @@ Route::group(['middleware'=>'auth'],function(){
     Route::put('genre/edit/{id}','genreController@putEdit');
     Route::get('genre/delete/{id}','genreController@delete');
 });
+
+Route::get('login/facebook', 'Auth\LoginController@redirectToProvider');
+Route::get('login/facebook/callback', 'Auth\LoginController@handleProviderCallback');

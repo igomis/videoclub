@@ -11,6 +11,8 @@
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2",
+        "laravel/passport": "^8.1",
+        "laravel/socialite": "^4.3",
         "laravel/tinker": "^2.0",
         "oscarafdev/migrations-generator": "2.0.9",
         "styde/html": "~1.8"

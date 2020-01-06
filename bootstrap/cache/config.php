@@ -97,9 +97,8 @@
       ),
       'api' => 
       array (
-        'driver' => 'token',
+        'driver' => 'passport',
         'provider' => 'users',
-        'hash' => false,
       ),
     ),
     'providers' => 
@@ -617,6 +616,18 @@
       'secret' => '',
       'region' => 'us-east-1',
     ),
+    'github' => 
+    array (
+      'client_id' => '22240a2950850cc19854',
+      'client_secret' => '4b238dbad226626d87d09f008677cb476785bbe7',
+      'redirect' => 'http://videoclub.my/github/callback',
+    ),
+    'facebook' => 
+    array (
+      'client_id' => '202617967286664',
+      'client_secret' => 'ac0e0a15087f18280e56449dabf34cba',
+      'redirect' => 'https://videoclub.my/login/facebook/callback',
+    ),
   ),
   'session' => 
   array (
@@ -676,6 +687,11 @@
     'remote_sites_path' => '',
     'local_sites_path' => '',
     'housekeeping_endpoint_prefix' => '_ignition',
+  ),
+  'passport' => 
+  array (
+    'private_key' => NULL,
+    'public_key' => NULL,
   ),
   'generators' => 
   array (

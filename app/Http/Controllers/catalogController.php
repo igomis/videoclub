@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Movie;
 use App\Http\Requests\StoreMovie;
 use Styde\Html\Facades\Alert;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class catalogController extends Controller
 {
@@ -41,15 +43,23 @@ class catalogController extends Controller
     }
 
     public function putRent($id){
-        $pelicula = Movie::findOrFail($id);
-        $pelicula->rented = true;
-        $pelicula->save();
+        DB::transaction(function () use($id) {
+            $pelicula = Movie::findOrFail($id);
+            $pelicula->rented = true;
+            $pelicula->save();
+            $pelicula->users()->attach(Auth::id(), ['dateRent' => date('Y/m/d')]);
+        });
+
         return redirect("/catalog/show/$id");
     }
     public function putReturn($id){
-        $pelicula = Movie::findOrFail($id);
-        $pelicula->rented = false;
-        $pelicula->save();
+        DB::transaction(function () use($id){
+            $pelicula = Movie::findOrFail($id);
+            $pelicula = Movie::findOrFail($id);
+            $pelicula->rented = false;
+            $pelicula->save();
+            $pelicula->users()->updateExistingPivot(Auth::id(), ['dateReturn' =>date('Y/m/d')]);
+        });
         return redirect("/catalog/show/$id");
     }
     public function deleteMovie($id){
