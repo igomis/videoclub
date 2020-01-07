@@ -7,12 +7,7 @@
             <h2><?php echo e($pelicula->title); ?></h2>
             <h4><?php echo e($pelicula->year); ?></h4>
             <h4><?php echo e($pelicula->director); ?></h4>
-            <p><strong>Genere:</strong>
-                <?php if($pelicula->Genre): ?>  <?php echo e($pelicula->Genre->title); ?>
-
-                <?php else: ?> Desconocido
-                <?php endif; ?>
-            </p>
+            <p><strong>Genere: </strong><?php echo e($pelicula->descGenre); ?></p>
             <p><strong>Resumen: </strong><?php echo e($pelicula->synopsis); ?></p>
             <p><strong>Estado: </strong>Pel.lícula <?php if($pelicula->rented): ?>  Actualment llogada <?php else: ?> disponible <?php endif; ?></p>
             <p>
