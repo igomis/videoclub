@@ -2,8 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b58aecd-016e-4caa-883f-d5123fb447ae" name="Default Changelist" comment="5.5">
-      <change beforePath="$PROJECT_DIR$/.idea/videoClub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/videoClub.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/catalogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/catalogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Movie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/9f61b2d950ef5a117cf48ef9ca4b0108329c23be.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/9f61b2d950ef5a117cf48ef9ca4b0108329c23be.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Column.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Column.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/Type.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/Type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/Types.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/Types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Version.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Version.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/resources/compiled/ignition.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/resources/compiled/ignition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/resources/views/errorPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/resources/views/errorPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Actions/ShareReportAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Actions/ShareReportAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Commands/TestCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Commands/TestCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Context/LaravelContextDetector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Context/LaravelContextDetector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Context/LaravelRequestContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Context/LaravelRequestContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/DumpRecorder/DumpRecorder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/DumpRecorder/DumpRecorder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/ErrorPage/ErrorPageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/ErrorPage/ErrorPageHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/ErrorPage/ErrorPageViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/ErrorPage/ErrorPageViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Exceptions/InvalidConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Exceptions/InvalidConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Exceptions/ViewException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Exceptions/ViewException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Exceptions/ViewExceptionWithSolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Exceptions/ViewExceptionWithSolution.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/ExecuteSolutionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/ExecuteSolutionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/HealthCheckController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/HealthCheckController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/ScriptController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/ScriptController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/ShareReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/ShareReportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/StyleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Controllers/StyleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Middleware/IgnitionConfigValueEnabled.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Middleware/IgnitionConfigValueEnabled.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Requests/ExecuteSolutionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Http/Requests/ExecuteSolutionRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/IgnitionConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/IgnitionConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/IgnitionServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/IgnitionServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/LogRecorder/LogRecorder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/LogRecorder/LogRecorder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Logger/FlareHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Logger/FlareHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Middleware/CustomizeGrouping.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Middleware/CustomizeGrouping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/QueryRecorder/QueryRecorder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/QueryRecorder/QueryRecorder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/BadMethodCallSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/BadMethodCallSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/DefaultDbNameSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/DefaultDbNameSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/IncorrectValetDbCredentialsSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/IncorrectValetDbCredentialsSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/InvalidRouteActionSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/InvalidRouteActionSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MergeConflictSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MergeConflictSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MissingAppKeySolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MissingAppKeySolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MissingColumnSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MissingColumnSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MissingImportSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MissingImportSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MissingPackageSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/MissingPackageSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/RouteNotDefinedSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/RouteNotDefinedSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/RunningLaravelDuskInProductionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/RunningLaravelDuskInProductionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/SolutionProviderRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/SolutionProviderRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/TableNotFoundSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/TableNotFoundSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/UndefinedVariableSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/UndefinedVariableSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/UnknownValidationSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/UnknownValidationSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/ViewNotFoundSolutionProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/SolutionProviders/ViewNotFoundSolutionProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/GenerateAppKeySolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/GenerateAppKeySolution.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/MakeViewVariableOptionalSolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/MakeViewVariableOptionalSolution.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/MissingPackageSolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/MissingPackageSolution.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/RunMigrationsSolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/RunMigrationsSolution.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/SolutionTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/SolutionTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/SuggestCorrectVariableNameSolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/SuggestCorrectVariableNameSolution.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/SuggestUsingCorrectDbNameSolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/SuggestUsingCorrectDbNameSolution.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/UseDefaultValetDbCredentialsSolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/UseDefaultValetDbCredentialsSolution.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Support/Packagist/Package.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Support/Packagist/Package.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Tabs/Tab.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Tabs/Tab.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Views/Concerns/CollectsViewExceptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Views/Concerns/CollectsViewExceptions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/AbstractFtpAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/AbstractFtpAdapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Ftp.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Ftp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/FilesystemNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/FilesystemNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/NotSupportedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/NotSupportedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/RootViolationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/RootViolationException.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,10 +279,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="5.5" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="291" y="80" width="1208" height="807" key="CommitChangelistDialog2" timestamp="1578036723921">
+    <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578392610594">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="291" y="80" width="1208" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1578036723921" />
+    <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1533.873@67.27.1533.873" timestamp="1578392610594" />
+    <state x="291" y="80" width="1208" height="807" key="CommitChangelistDialog2" timestamp="1578303703059">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="291" y="80" width="1208" height="807" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1578303703059" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578302185911">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -219,6 +299,14 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="636" y="175" width="384" height="575" key="RollbackChangesDialog/67.27.1533.873@67.27.1533.873" timestamp="1578302164177" />
+    <state x="571" y="168" width="515" height="589" key="VCS.ChangeListViewerDialog" timestamp="1578302823076">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="571" y="168" width="515" height="589" key="VCS.ChangeListViewerDialog/67.27.1533.873@67.27.1533.873" timestamp="1578302823076" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578303660242">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1578303660242" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1578302383509">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -231,13 +319,25 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="487" y="80" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1533.873@67.27.1533.873" timestamp="1578300823335" />
-    <state x="603" y="329" width="450" height="267" key="git4idea.rebase.GitRebaseDialog" timestamp="1578302083112">
+    <state x="601" y="382" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578302935670">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="603" y="329" width="450" height="267" key="git4idea.rebase.GitRebaseDialog/67.27.1533.873@67.27.1533.873" timestamp="1578302083112" />
+    <state x="601" y="382" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1533.873@67.27.1533.873" timestamp="1578302935670" />
+    <state x="593" y="255" width="471" height="415" key="git4idea.merge.GitMergeDialog" timestamp="1578303848891">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="593" y="255" width="471" height="415" key="git4idea.merge.GitMergeDialog/67.27.1533.873@67.27.1533.873" timestamp="1578303848891" />
+    <state x="603" y="329" width="460" height="267" key="git4idea.rebase.GitRebaseDialog" timestamp="1578302835178">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="603" y="329" width="460" height="267" key="git4idea.rebase.GitRebaseDialog/67.27.1533.873@67.27.1533.873" timestamp="1578302835178" />
     <state x="578" y="205" width="501" height="514" key="git4idea.rebase.GitRebaseEditor" timestamp="1578302093101">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="578" y="205" width="501" height="514" key="git4idea.rebase.GitRebaseEditor/67.27.1533.873@67.27.1533.873" timestamp="1578302093101" />
+    <state x="584" y="296" width="489" height="333" key="git4idea.ui.GitUnstashDialog" timestamp="1578302778620">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="584" y="296" width="489" height="333" key="git4idea.ui.GitUnstashDialog/67.27.1533.873@67.27.1533.873" timestamp="1578302778620" />
   </component>
 </project>
