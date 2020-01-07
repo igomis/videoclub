@@ -8,11 +8,7 @@
             <h2>{{$pelicula->title}}</h2>
             <h4>{{$pelicula->year}}</h4>
             <h4>{{$pelicula->director}}</h4>
-            <p><strong>Genere:</strong>
-                @if ($pelicula->Genre)  {{ $pelicula->Genre->title}}
-                @else Desconocido
-                @endif
-            </p>
+            <p><strong>Genere: </strong>{{ $pelicula->descGenre}}</p>
             <p><strong>Resumen: </strong>{{$pelicula->synopsis}}</p>
             <p><strong>Estado: </strong>Pel.lícula @if ($pelicula->rented)  Actualment llogada @else disponible @endif</p>
             <p>

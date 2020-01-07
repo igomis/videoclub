@@ -15,6 +15,7 @@ class catalogController extends Controller
         $arrayPeliculas = Movie::paginate(8);
         return view('index',compact('arrayPeliculas'));
     }
+
     public function getShow($id){
         $pelicula = Movie::findOrFail($id);
         return view('show',compact('pelicula'));
@@ -54,7 +55,6 @@ class catalogController extends Controller
     }
     public function putReturn($id){
         DB::transaction(function () use($id){
-            $pelicula = Movie::findOrFail($id);
             $pelicula = Movie::findOrFail($id);
             $pelicula->rented = false;
             $pelicula->save();

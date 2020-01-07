@@ -4,7 +4,7 @@ Auth::routes();
 Route::get('/','homeController@getHome');
 Route::group(['middleware'=>'auth'],function(){
     Route::get('/home','homeController@getHome');
-    Route::get('/logout','Auth\Logincontroller@logout');
+    Route::get('/logout','Auth\LoginController@logout');
     Route::get('catalog','catalogController@getIndex');
     Route::get('catalog/show/{id}', 'catalogController@getShow');
     Route::get('catalog/create','catalogController@getCreate');
