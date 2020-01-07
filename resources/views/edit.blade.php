@@ -10,36 +10,15 @@
                     </h3>
                 </div>
                 <div class="panel-body" style="padding:30px">
-                    <form method='POST'>
-                        @csrf
-                        @method('PUT')
-                        <div class="form-group">
-                            <label for="title">Título</label>
-                            <input type="text" name="title" id="title" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for='year'>Any:</label>
-                            <input type='number' name='year' />
-                        </div>
-                        <div class="form-group">
-                            <label for='director'>Director:</label>
-                            <input type='text' name='director' />
-                        </div>
-                        <div class="form-group">
-                            <label for='poster'>Poster:</label>
-                            <input type='url' name='poster' />
-                        </div>
-
-                        <div class="form-group">
-                            <label for="synopsis">Resumen</label>
-                            <textarea name="synopsis" id="synopsis" class="form-control" rows="3"></textarea>
-                        </div>
-                        <div class="form-group text-center">
-                            <button type="submit" class="btn btn-primary" style="padding:8px 100px;margin-top:25px;">
-                                Modificar pel.lícula
-                            </button>
-                        </div>
-                    </form>
+                    {!! Form::model($pelicula,['class'=>'form-horizontal form-label-left','enctype'=>"multipart/form-data",'method'=>'PUT']) !!}
+                    {!! Field::text('title') !!}
+                    {!! Field::text('year') !!}
+                    {!! Field::text('director') !!}
+                    {!! Field::select('id_genre') !!}
+                    {!! Field::text('poster') !!}
+                    {!! Field::textarea('synopsis') !!}
+                    {!! Form::submit('Enviar',['class'=>'btn btn-success','id'=>'submit']) !!}
+                    {!! Form::close() !!}
                 </div>
             </div>
         </div>
