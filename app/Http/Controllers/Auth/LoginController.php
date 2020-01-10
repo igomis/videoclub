@@ -53,6 +53,7 @@ class LoginController extends Controller
     public function handleProviderCallback()
     {
         $auth_user = Socialite::driver('facebook')->user();
+        dd($auth_user);
         $user = User::updateOrCreate(
             [
                 'email' => $auth_user->email
